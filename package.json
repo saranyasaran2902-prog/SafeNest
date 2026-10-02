@@ -1,0 +1,7 @@
+{
+  "name":"safenest-child-safety-platform",
+  "version":"3.0.0",
+  "private":true,
+  "scripts":{"dev":"concurrently \"npm run server\" \"npm run client\"","server":"npm --prefix server start","client":"npm --prefix client run dev","install-all":"npm install && npm --prefix server install && npm --prefix client install"},
+  "dependencies":{"concurrently":"^9.2.1"}
+}

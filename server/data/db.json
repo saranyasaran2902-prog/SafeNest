@@ -1,0 +1,156 @@
+{
+  "reports": [],
+  "contacts": [
+    {
+      "id": "demo-1",
+      "name": "Parent / Guardian",
+      "relation": "Primary guardian",
+      "phone": "+91 90000 00000"
+    },
+    {
+      "id": "demo-2",
+      "name": "School Safety Officer",
+      "relation": "School contact",
+      "phone": "+91 91111 11111"
+    },
+    {
+      "id": "87e85261-bfe2-4692-af0e-d818cb1a1ac7",
+      "name": "yukesh",
+      "relation": "Trusted contact",
+      "phone": "7200529792"
+    },
+    {
+      "id": "70c5c06c-909e-4ec9-a17c-4a0da88e3fb4",
+      "name": "home",
+      "relation": "Trusted contact",
+      "phone": "6385422823"
+    }
+  ],
+  "child": {
+    "id": "child-1",
+    "name": "Aarav",
+    "age": 10,
+    "status": "Safe",
+    "latitude": 10.99967066234736,
+    "longitude": 77.08413822633474,
+    "accuracy": 106,
+    "speed": 0,
+    "updatedAt": "2026-09-29T10:32:54.751Z"
+  },
+  "geofence": {
+    "enabled": true,
+    "latitude": 10.99967066234736,
+    "longitude": 77.08413822633474,
+    "radiusMeters": 600
+  },
+  "alerts": [
+    {
+      "id": "8840ea60-b782-4691-bbcb-c0466eb90251",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-10-01T04:57:47.233Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "7788b586-ba6d-431b-a427-7098e9137fe2",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-10-01T04:43:35.759Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "01997ab9-f9ed-4106-b4d5-92a2abc3d129",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-10-01T04:34:49.607Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "e2e23d9d-926d-482a-8b8e-8a79ac9ecf71",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-10-01T04:32:10.881Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "507db36c-4e9b-4a6c-a866-4ec250f3e00d",
+      "type": "TEST",
+      "message": "This is a test child-safety alert. Check your configured notification channels.",
+      "createdAt": "2026-09-30T08:56:38.922Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "6ed05c4b-9106-49a1-ba7c-17dcd7728092",
+      "type": "TEST",
+      "message": "This is a test child-safety alert. Check your configured notification channels.",
+      "createdAt": "2026-09-30T08:55:36.917Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "4f05ed84-f066-415c-bff1-cac829ef4bf0",
+      "type": "TEST",
+      "message": "This is a test child-safety alert. Check your configured notification channels.",
+      "createdAt": "2026-09-30T08:55:34.952Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "9cfc55a7-41b2-410d-a631-3d18b091117e",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-09-30T08:54:51.509Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "54d965c5-6405-4d53-96a6-c108ec6fc704",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-09-29T11:14:48.170Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "d4333f10-f89a-4e47-b344-872da8fdefec",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-09-29T11:14:13.712Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "a04831cf-3d2f-4198-a002-f26bbb2337ca",
+      "type": "SOS",
+      "message": "SOS / Get Help was activated from the guardian dashboard.",
+      "createdAt": "2026-09-29T11:14:08.489Z",
+      "channels": [
+        "in-app"
+      ]
+    },
+    {
+      "id": "c4251cd5-0a27-4a80-8fe0-443d40e254f8",
+      "type": "GEOFENCE_EXIT",
+      "message": "Aarav has crossed the safe boundary. Distance from safe center: 416795 m.",
+      "createdAt": "2026-09-29T10:28:23.603Z",
+      "channels": [
+        "in-app"
+      ]
+    }
+  ]
+}
