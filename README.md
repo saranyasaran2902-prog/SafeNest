@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SafeNest — Connected Child Safety Platform v3
 
 This version combines the original SafeNest safety website and the Live Location/Geofence website into ONE connected React + Express application.
@@ -48,3 +49,6 @@ A normal browser can provide continuous location updates while the tracking page
 
 ## Demo safety note
 The SOS endpoint records the workflow; it does not automatically contact emergency services. For production, connect it to verified guardian/emergency contacts and a compliant telephony provider.
+=======
+# SafeNest
+>>>>>>> 0fb98cb0bb6f9f4d3cdb44e66c2e7308b586f068
